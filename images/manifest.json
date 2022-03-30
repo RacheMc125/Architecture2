@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 1000,
+    "id" : "https://RacheMc125.github.io/Architecture2/images/Berestove/canvas/",
+    "label" : {
+      "none" : [ "Berestove" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://RacheMc125.github.io/Architecture2/images/Berestove/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://RacheMc125.github.io/Architecture2/images/Berestove/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 32,
+              "height" : 42
+            }, {
+              "width" : 63,
+              "height" : 84
+            }, {
+              "width" : 125,
+              "height" : 168
+            }, {
+              "width" : 250,
+              "height" : 335
+            }, {
+              "width" : 500,
+              "height" : 670
+            }, {
+              "width" : 1000,
+              "height" : 1340
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1000,
+            "@id" : "https://RacheMc125.github.io/Architecture2/images/Berestove",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1340
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1000,
+          "id" : "https://RacheMc125.github.io/Architecture2/images/Berestove/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1340
+        },
+        "target" : "https://RacheMc125.github.io/Architecture2/images/Berestove/canvas/"
+      } ]
+    } ],
+    "height" : 1340
+  }, {
+    "width" : 1000,
     "id" : "https://RacheMc125.github.io/Architecture2/images/Sophia/canvas/",
     "label" : {
       "none" : [ "Sophia" ]
