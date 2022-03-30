@@ -1,0 +1,66 @@
+{
+  "id" : "https://RacheMc125.github.io/Architecture2/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in RacheMc125/Architecture2 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 748,
+    "id" : "https://RacheMc125.github.io/Architecture2/images/Cyril/canvas/",
+    "label" : {
+      "none" : [ "Cyril" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://RacheMc125.github.io/Architecture2/images/Cyril/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://RacheMc125.github.io/Architecture2/images/Cyril/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 24,
+              "height" : 32
+            }, {
+              "width" : 47,
+              "height" : 63
+            }, {
+              "width" : 94,
+              "height" : 126
+            }, {
+              "width" : 187,
+              "height" : 251
+            }, {
+              "width" : 374,
+              "height" : 502
+            }, {
+              "width" : 748,
+              "height" : 1004
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 748,
+            "@id" : "https://RacheMc125.github.io/Architecture2/images/Cyril",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1004
+          } ],
+          "format" : "image/jpeg",
+          "width" : 748,
+          "id" : "https://RacheMc125.github.io/Architecture2/images/Cyril/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1004
+        },
+        "target" : "https://RacheMc125.github.io/Architecture2/images/Cyril/canvas/"
+      } ]
+    } ],
+    "height" : 1004
+  } ]
+}
